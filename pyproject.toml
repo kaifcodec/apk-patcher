@@ -3,7 +3,7 @@ requires = ["flit_core >=3.9,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
-name = "apkpatcher"
+name = "apk-patcher"
 version = "7.9.2025.1"
 description = "Android APK manipulation toolkit with Frida gadget injection support"
 readme = "README.md"
@@ -39,12 +39,12 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/kaifcodec/apkpatcher"
-Repository = "https://github.com/kaifcodec/apkpatcher.git"
-Issues = "https://github.com/kaifcodec/apkpatcher/issues"
+Homepage = "https://github.com/kaifcodec/apk-patcher"
+Repository = "https://github.com/kaifcodec/apk-patcher.git"
+Issues = "https://github.com/kaifcodec/apk-patcher/issues"
 
 [project.scripts]
-apkpatcher = "apkpatcher.cli:main"
+apk-patcher = "apk_patcher.cli:main"
 
 [tool.flit.sdist]
-exclude = ["tests/", "docs/", ".github/"]
+exclude = ["tests/", "docs/", ".github/", ".git", "rm_pycache"]
