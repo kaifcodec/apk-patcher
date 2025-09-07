@@ -1,4 +1,4 @@
-# APKPatcher
+# APK-Patchx
 
 A powerful command-line tool for Android APK manipulation, including Frida gadget injection, APK decoding/building, and package management.
 
@@ -13,39 +13,39 @@ A powerful command-line tool for Android APK manipulation, including Frida gadge
 ## Installation
 
 ```bash
-pip install apkpatcher
+pip install apk-patchx
 ```
 
 ## Usage
 
 ### Pull APK from device
 ```bash
-apkpatcher pull com.example.app
+apk-patchx pull com.example.app
 ```
 
 ### Decode APK
 ```bash
-apkpatcher decode app.apk
+apk-patchx decode app.apk
 ```
 
 ### Build APK from source
 ```bash
-apkpatcher build app_src/
+apk-patchx build app_src/
 ```
 
 ### Patch APK with Frida gadget
 ```bash
-apkpatcher patch app.apk --arch arm64
+apk-patchx patch app.apk --arch arm64
 ```
 
 ### Rename APK package
 ```bash
-apkpatcher rename app.apk com.newpackage.name
+apk-patchx rename app.apk com.newpackage.name
 ```
 
 ### Sign APK
 ```bash
-apkpatcher sign app.apk
+apk-patchx sign app.apk
 ```
 
 ## Architecture Support
@@ -63,7 +63,7 @@ apkpatcher sign app.apk
 
 ## Tool Management
 
-APKPatcher automatically downloads and manages required tools in `~/.apkpatcher/tools/`:
+APK-Patchx automatically downloads and manages required tools in `~/.apk-patchx/tools/`:
 
 - apktool
 - Android SDK build-tools
