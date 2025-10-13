@@ -1,5 +1,5 @@
 # APK-Patchx
-## ⚠️ It's in development mode now, use it carefully, suggest fixes and PR. ⚠️
+## ⚠️ It's in development mode now (mostly vibe coded), use it carefully, suggest fixes and PR. ⚠️
 ---
 <p align="center">
   <img src="https://placehold.co/1000x280/0d1117/39ff14?font=Fira%20Code&text=apk-patchx%20%E2%80%A2%20APK%20Manipulation%20Toolkit" alt="apk-patchx Banner - Android APK Manipulation Toolkit">
